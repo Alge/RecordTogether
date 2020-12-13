@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Record Together</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <video class="live-webcam" autoplay="true"></video>
+            <p class="webcam-tooltip">No video? make sure your web camera is on and you have given this website permission to use it</p>
+            <div class="main-controls">
+                <button class="button-record">Record</button>
+                <button class="button-stop" disabled="true">Stop</button>
+                <button class="button-play-all">Play all</button>
+                <button class="button-load-file">Load file</button>
+            </div>
+            <canvas class="visualizer" style="max-height: 80px; max-width: 800px; margin-left: auto; margin-right: auto;"></canvas>
+            <div class="recordings-list">
+                <h2>Recordings</h2>
+            </div>
+        </div>
+        <script type="module" src='app.js'></script>
+    </body>
+</html>

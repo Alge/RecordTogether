@@ -1,0 +1,23 @@
+{
+  "name": "typescript-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamshaunjp/typescript-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamshaunjp/typescript-tutorial/issues"
+  },
+  "homepage": "https://github.com/iamshaunjp/typescript-tutorial#readme",
+  "dependencies": {
+    "@types/dom-mediacapture-record": "^1.0.7",
+    "typescript": "^4.1.3"
+  }
+}

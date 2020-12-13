@@ -1,0 +1,81 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.live-webcam{
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+.webcam-tooltip{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.main-controls button{
+    padding: 10px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.recordings-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recording-card{
+    background-color: #ddd;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.recording-card-content{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+1
+.recording-card h3{
+}
+.recording-card video{
+    min-width: 500px;
+    background-color: red;
+}
+
+.recordingcard-controls{
+    display: flex;
+    flex: 0 1 200px; /* Positive flex-shrink */
+    flex-direction: column;
+    padding: 15px;
+    min-width: 200px;
+    margin-left: 10px;
+}
+
+.recordingcard-controllitem{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.recordingcard-controllitem input[type=checkbox]{
+    margin-left: 30px;
+}
+.recordingcard-controllitem input[type=range]{
+    width: 60px;
+}
+
